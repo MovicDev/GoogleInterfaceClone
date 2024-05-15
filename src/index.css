@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html,body{
+        @apply bg-[#212125] text-white text-center mx-auto w-full overflow-x-hidden
+    }
+    h1{
+        @apply text-8xl font-semibold text-center 
+    }
+    button{
+        @apply bg-[#303035] px-2 py-2 text-sm mx-auto
+    }
+    a{
+        @apply text-blue-300 text-center
+    }
+}
